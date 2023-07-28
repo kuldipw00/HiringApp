@@ -87,7 +87,7 @@ const Form = ({ steps, onSubmit, title, fieldObject, action }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="flex flex-col gap-24">
-        <div className="flex flex-col items-start gap-6 w-[513px] ">
+        <div className="flex flex-col items-start gap-6">
           <div className="flex justify-between w-full">
             <label className="text-xl">{title}</label>
             <label className="text-xl">Step {currentStep}</label>
